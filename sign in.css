@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, 'Lalezar';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.container {
+    position: absolute;
+    background: #ffffff; /* White box for the form */
+    padding: 20px;
+    width: 800px; /* Mas maliit na width */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.input-container {
+    position: absolute;
+    width: 5px; /* Mas maliit na input container */
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background: #E4E3E3;
+    width: 50%;
+    padding: 5px; /* Mas maliit na padding */
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Mas maliit na text */
+}
+
+button {
+    width: 50%;
+    background-color: #18b818;
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a116;
+}
